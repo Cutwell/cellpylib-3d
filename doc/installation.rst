@@ -7,4 +7,4 @@ CellPyLib3d can be installed via pip:
 
     pip install cellpylib3d
 
-Requirements for using this library are Python 3.6, numpy 1.15.4, and matplotlib 3.0.2.
+Requirements for using this library are Python 3.7, numpy 1.15.4, and matplotlib 3.0.2.
