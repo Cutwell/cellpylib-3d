@@ -1,86 +1,23 @@
 Reference
 =========
 
-cellpylib.apen
---------------
+cellpylib3d.ca_functions3d
+--------------------------
 
-.. automodule:: cellpylib.apen
+.. automodule:: cellpylib3d.ca_functions3d
    :members:
    :undoc-members:
 
-cellpylib.bien
---------------
+cellpylib3d.ca_functionsParallel
+--------------------------------
 
-.. automodule:: cellpylib.bien
+.. automodule:: cellpylib3d.ca_functionsParallel
    :members:
    :undoc-members:
 
-cellpylib.ca_functions
-----------------------
-
-.. automodule:: cellpylib.ca_functions
-   :members:
-   :undoc-members:
-
-cellpylib.ca_functions2d
-------------------------
-
-.. automodule:: cellpylib.ca_functions2d
-   :members:
-   :undoc-members:
-
-cellpylib.ctrbl_rule
+cellpylib3d.ca_rules
 --------------------
 
-.. automodule:: cellpylib.ctrbl_rule
-  :members:
-  :undoc-members:
-
-cellpylib.entropy
------------------
-
-.. automodule:: cellpylib.entropy
-   :members:
-   :undoc-members:
-
-cellpylib.hopfield_net
-----------------------
-
-.. automodule:: cellpylib.hopfield_net
-   :members:
-   :undoc-members:
-
-cellpylib.langtons_loop
------------------------
-
-.. automodule:: cellpylib.langtons_loop
-   :members:
-   :undoc-members:
-
-cellpylib.sdsr_loop
------------------------
-
-.. automodule:: cellpylib.sdsr_loop
-   :members:
-   :undoc-members:
-
-cellpylib.evoloop
------------------------
-
-.. automodule:: cellpylib.evoloop
-   :members:
-   :undoc-members:
-
-cellpylib.rule_tables
----------------------
-
-.. automodule:: cellpylib.rule_tables
-   :members:
-   :undoc-members:
-
-cellpylib.sandpile
------------------------
-
-.. automodule:: cellpylib.sandpile
+.. automodule:: cellpylib3d.ca_rules
    :members:
    :undoc-members:

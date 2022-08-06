@@ -1,4 +1,4 @@
-name: cellpylib_dev_env
+name: cellpylib3d_dev_env
 
 channels:
   - conda-forge

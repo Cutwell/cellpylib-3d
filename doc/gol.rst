@@ -1,33 +1,28 @@
-Conway's Game of Life
----------------------
+Conway's Game of Life in 3D
+---------------------------
 
-Conway's Game of Life is a very famous 2D Cellular Automaton. It uses a simple rule to give rise to a complex system
-that is capable of universal computation, in addition to its ability to entertain and fascinate.
+Conway's Game of Life is a very famous 2D Cellular Automaton. It uses a simple rule to give rise to a complex system that is capable of universal computation, in addition to its ability to entertain and fascinate.
 
-CellPyLib has a built-in function, :py:func:`~cellpylib.ca_functions2d.game_of_life_rule`, that can be used to produce
-the Game of Life 2D CA:
+Multiple variations extending this ruleset into 3-dimensions. CellPyLib has a built-in function, :py:func:`~cellpylib.ca_functions3d.game_of_life_rule_3d`, that can be used to produce
+the Game of Life 3D CA:
 
 .. code-block::
 
-    import cellpylib as cpl
+    import cellpylib3d as cpl3d
 
-    # Glider
-    cellular_automaton = cpl.init_simple2d(60, 60)
-    cellular_automaton[:, [28,29,30,30], [30,31,29,31]] = 1
+    # empty 3d grid
+    grid = cpl3d.init_simple3d(10, 10, 10, val=0) # init empty 3d grid
 
-    # Blinker
-    cellular_automaton[:, [40,40,40], [15,16,17]] = 1
+    # oscilating shape from donut
+    grid[:, [3, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 7], 4, [4, 5, 6, 3, 7, 3, 7, 3, 7, 4, 5, 6]] = 1
 
-    # Light Weight Space Ship (LWSS)
-    cellular_automaton[:, [18,18,19,20,21,21,21,21,20], [45,48,44,44,44,45,46,47,48]] = 1
+    # evolve the CA for 20 time steps, using a 3d adaptation of Conway's Game of Life ruleset
+    grid = cpl3d.evolve3d(grid, timesteps=20, apply_rule=cpl3d.game_of_life_rule_3d)
 
-    # evolve the cellular automaton for 60 time steps
-    cellular_automaton = cpl.evolve2d(cellular_automaton, timesteps=60, neighbourhood='Moore',
-                                      apply_rule=cpl.game_of_life_rule, memoize='recursive')
+    # plot the final generation of the CA evolution
+    cpl3d.plot3d_animate(cellular_automaton, save=True, title='Random Game of Life')
 
-    cpl.plot2d_animate(cellular_automaton)
-
-.. image:: _static/game_of_life.gif
+.. image:: _static/3d_gol.gif
     :width: 350
 
 **References:**

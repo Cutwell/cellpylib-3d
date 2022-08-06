@@ -17,9 +17,8 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'CellPyLib'
-copyright = '2021, Luis M. Antunes'
-author = 'Luis M. Antunes'
+project = 'CellPyLib3d'
+author = 'Z. Smith'
 
 
 # -- General configuration ---------------------------------------------------

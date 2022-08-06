@@ -20,7 +20,7 @@ github:
 	@mkdir -p ../site/docs
 	@cp -a _build/html/. ../site/docs
 	@touch ../site/docs/.nojekyll
-	@echo "cellpylib.org\c" > ../site/docs/CNAME
+	@echo "github.com/Cutwell/cellpylib-3d\c" > ../site/docs/CNAME
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).

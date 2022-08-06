@@ -1,55 +1,36 @@
 .. _contents:
 
-CellPyLib
-=========
+CellPyLib3d
+===========
 
-CellPyLib is a Python library for working with Cellular Automata (CA). It provides a concise and simple interface for
-defining and analyzing 1- and 2-dimensional CA. The CA can consist of discrete or continuous states. Neighbourhood
-radii are adjustable, and in the 2-dimensional case, both Moore and von Neumann neighbourhoods are supported.
-
-With CellPyLib, it is trivial to create Elementary CA, and CA with totalistic rules. These rules are provided as part
-of the library. Additionally, the library provides a means for creating asynchronous CA, and reversible CA. Finally, an
-implementation of C. G. Langton's approach for creating CA rules using the lambda value is provided, allowing for the
-exploration of complex systems, phase transitions and emergent computation.
+CellPyLib is a library for working with 1- and 2-dimensional _k_-color Cellular Automata in Python. CellPyLib-3d is an extension of this library, bringing support for 3-dimensional and 2-dimensional layered automata. Neighbourhood radii are adjustable and both Moore and von Neumann neighbourhoods are supported.
 
 Utility functions for plotting and viewing the evolved CA are provided. These tools make it easy to visualize the
-results of CA evolution. Moreover, utility functions for computing the information-theoretic properties of CA, such as
-the Shannon entropy and mutual information, are provided.
+results of CA evolution.
 
 .. toctree::
-  :caption: Using CellPyLib
+  :caption: Using CellPyLib3d
   :maxdepth: 5
 
   installation
-  working
   additional
-  citing
 
 .. toctree::
   :caption: Tutorials
   :maxdepth: 5
 
-  eca
   neighbourhood
   colors
-  complexity
-  continuous
-  collatz
-  twodim
+  threedim
+  parallel
   gol
-  wireworld
-  fredkin
-  hopfield
-  langtons_loop
-  sdsr_evoloop
-  sandpile
 
 .. toctree::
   :caption: API Docs and License
   :maxdepth: 5
 
   reference
-  Source <https://github.com/lantunes/cellpylib>
+  Source <https://github.com/Cutwell/cellpylib-3d>
   license
 
 Indices and tables
