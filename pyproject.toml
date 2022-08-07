@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cellpylib3d"
+version = "1.0.1"
+authors = [
+  { name="Z. Smith", email="zachsmith.dev@gmail.com" },
+]
+description = "An extension of CellPyLib, enabling 3d cellular automaton. "
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Cutwell/cellpylib-3d"
+"Bug Tracker" = "https://github.com/Cutwell/cellpylib-3d/issues"

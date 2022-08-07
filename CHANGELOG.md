@@ -2,12 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.1/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2022-08-03
+## [1.0.1] - 2022-08-03
 
-- Branched into cellpylib-3D, reset versioning to 1.0.0 for initial release of this extension.
+- Branched into cellpylib-3D, reset versioning to 1.0.1 for initial release of this extension.
 - Added `evolve3d` and `evolveParallel` as compliment to `evolve2d` functions, adding support for 3D and layered 2D automata.
 - Added various backend functions to support functionality.
 - Removed other content unrelated to 3D or parallel functionality.
@@ -74,7 +74,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Wireworld demo code
 - Added more optional arguments to `plot2d_animate` function signature
 
-## [1.0.0] - 2021-07-29
+## [1.0.1] - 2021-07-29
 
 ### Added
 

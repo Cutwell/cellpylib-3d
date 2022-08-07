@@ -49,11 +49,11 @@ cellpylib3d.plotParallel_animate(cellular_automaton, title='Parallel Game of Lif
 
 ![](/resources/parallel_gol.gif)
 
-## Getting Started (_Coming Soon_)
+## Getting Started
 
-~~CellPyLib can be installed via pip:~~
+CellPyLib can be installed via pip:
 
-~~`pip install cellpylib3d`~~
+`pip install cellpylib3d`
 
 Requirements for using this library are Python 3.7, NumPy, and Matplotlib. This extension library largely followsHave a look at the documentation, located at [cellpylib.org](https://cellpylib.org), for more information.
 
